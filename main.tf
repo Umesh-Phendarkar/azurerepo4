@@ -21,7 +21,7 @@ terraform {
 
 provider "azurerm" {
   features {}
-  
+  }
 resource "azurerm_resource_group" "rg10" {
   location = "Central India"
   name     = "rg10"
