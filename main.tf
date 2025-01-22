@@ -26,7 +26,7 @@ variable "prefix" {
   default = "terraform"
 }
 
-resource "azurerm_resource_group" "rg10" {
-  name     = "resource_group_10"
+resource "azurerm_resource_group" "rg20" {
+  name     = "resource_group_20"
   location = "Central India"
 }
